@@ -1,0 +1,52 @@
+﻿@model IEnumerable<AplikacijaGM.Models.Clients>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<hr />
+<h4>Registar Klijenata</h4>
+<hr />
+
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Vlasnik)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ljubimac)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vrsta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Adresa)
+            </th>
+            <th><a asp-action="AddOrEdit" class="btn btn-outline-success"><i class="far fa-plus-square"></i>Novi Klijent</a></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vlasnik)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ljubimac)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vrsta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adresa)
+            </td>
+            <td>
+                <a asp-action="AddOrEdit" asp-route-id="@item.KlijentID">Urediti<i class="fa fa-marker fa-lg"></i></a> |
+                <a asp-action="Delete" asp-route-id="@item.KlijentID" class="text-danger ml-1" onclick="return confirm('Da li želite obrisati podatke?')">Izbrisati<i class="fa fa-trash-alt fa-lg"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

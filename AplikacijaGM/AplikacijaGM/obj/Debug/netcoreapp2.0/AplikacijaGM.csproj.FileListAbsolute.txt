@@ -1,0 +1,11 @@
+C:\Users\Korisnik\Desktop\PIN\AplikacijaGM\AplikacijaGM\bin\Debug\netcoreapp2.0\AplikacijaGM.deps.json
+C:\Users\Korisnik\Desktop\PIN\AplikacijaGM\AplikacijaGM\bin\Debug\netcoreapp2.0\AplikacijaGM.runtimeconfig.json
+C:\Users\Korisnik\Desktop\PIN\AplikacijaGM\AplikacijaGM\bin\Debug\netcoreapp2.0\AplikacijaGM.runtimeconfig.dev.json
+C:\Users\Korisnik\Desktop\PIN\AplikacijaGM\AplikacijaGM\bin\Debug\netcoreapp2.0\AplikacijaGM.dll
+C:\Users\Korisnik\Desktop\PIN\AplikacijaGM\AplikacijaGM\obj\Debug\netcoreapp2.0\AplikacijaGM.csprojAssemblyReference.cache
+C:\Users\Korisnik\Desktop\PIN\AplikacijaGM\AplikacijaGM\obj\Debug\netcoreapp2.0\AplikacijaGM.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\PIN\AplikacijaGM\AplikacijaGM\obj\Debug\netcoreapp2.0\AplikacijaGM.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\PIN\AplikacijaGM\AplikacijaGM\obj\Debug\netcoreapp2.0\AplikacijaGM.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\PIN\AplikacijaGM\AplikacijaGM\bin\Debug\netcoreapp2.0\AplikacijaGM.pdb
+C:\Users\Korisnik\Desktop\PIN\AplikacijaGM\AplikacijaGM\obj\Debug\netcoreapp2.0\AplikacijaGM.dll
+C:\Users\Korisnik\Desktop\PIN\AplikacijaGM\AplikacijaGM\obj\Debug\netcoreapp2.0\AplikacijaGM.pdb
